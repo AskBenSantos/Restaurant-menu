@@ -236,6 +236,19 @@ section {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+footer {
+  color: white;
+  padding: 20px;
+}
+.f-links{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin-top: 10px;
+  gap: 5px;
+  line-height: 2rem;
+  color: white;
+}
+
 
 @media (max-width: 768px) {
   .menu-item-container {
@@ -274,4 +287,12 @@ section {
   margin-top: 50px;
   border: none;
   border-top: 1px solid #ccc;
+}
+.f-links{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin-top: 10px;
+  gap: 5px;
+  line-height: 2rem;
+  color: white;
 }
