@@ -208,6 +208,7 @@ section {
   max-width: 900px;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  height: auto;
 }
 
 
@@ -220,6 +221,7 @@ section {
 .menu-item-container img {
   width: 80%;
   max-width: 200px;
+  height: auto;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
@@ -247,7 +249,13 @@ footer {
   gap: 5px;
   line-height: 2rem;
   color: white;
+
+  & a{
+    color: white;
+    text-decoration: none;
+  }
 }
+
 
 
 @media (max-width: 768px) {
